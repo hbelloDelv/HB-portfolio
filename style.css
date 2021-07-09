@@ -1,0 +1,150 @@
+/*My Style*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap')
+*{
+	font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+     -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+.accordion-header{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+
+.bg-mixed{
+	background-image: radial-gradient(rgba(
+    0, 0, 122, 0.32), rgba(0, 0, 200, 0.68)), url(
+	'./img/laravel.svg');
+	background-repeat: no-repeat;
+}
+.bg-mixedTwo{
+	background-image: radial-gradient(rgba(
+    0, 0, 122, 0.32), rgba(0, 0, 200, 0.68)), url(
+	'./img/mac.svg');
+	background-repeat: no-repeat;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+div .accordion-body{
+	font-family: 'Raleway', sans-serif;
+}
+nav .nav-link{
+	font-family: 'Raleway', sans-serif;
+	/*text-transform: uppercase;*/
+}
+.navbar-brand{
+	font-family: 'Raleway', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #212529; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1c1f23; 
+}
+
+#me{
+	width: 80%;
+	filter: drop-shadow(0 0 0.45rem grey);
+}
+.laravel{
+	width: 80%;
+	filter: drop-shadow(0 0 0.45rem grey);
+}
+.main-text{
+	filter: drop-shadow(0 0 0.20rem grey);
+	-webkit-font-smoothing: antialiased !important;
+}
+/*.active, .nav-link:hover {
+  background-color: #666;
+  color: white;
+}*/
+@media(max-width: 768px){
+   	.col-md-4{
+	
+}
+
+@media(max-width: 500px){
+   	.row .col-md-4{
+		width: 100%;
+	}
+	/*.container{
+		display: block;
+		width: 100%;
+		padding: auto;
+		
+	}*/
+	#me{
+		width: 50%;
+	}
+	#about{
+		width: 100%;
+	}
+	.card{
+   
+    	width: 100%;
+  	}
+	.main-text{
+	filter: drop-shadow(0 0 0.0rem grey);
+	-webkit-font-smoothing: antialiased !important;
+	}
+	.form-section{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.welcome-text{
+		display: block;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	/*.container{
+		display: block;
+		width: 100%;
+		margin: 10px;
+	}*/
+	#links{
+		margin: -1px;
+	}
+	section{
+		width: 100%;
+		padding: 12px;
+	}
+
+   
+}
+@media(max-width: 650px){
+	
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media(max-width: 598px){
+	#me{
+		width: 80%;
+	}
+}
